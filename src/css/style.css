@@ -1,0 +1,48 @@
+body{
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    background-color: #DA8707;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    padding: 0px;
+    width: 95%;
+}
+
+#mainBox{
+    width: 25%;
+    margin: 10% auto;
+
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.20);
+    padding: 70px 25px;
+    background: #fff;
+}
+
+#formToConvert{
+
+}
+
+#formToConvert label{
+    font-size: 20px;
+}
+
+#formToConvert input[type='text']{
+    padding: 10px 20px;
+    width: 87%;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(104, 101, 101, 0.432);
+    margin: 10px 0px;
+}
+
+
+#formToConvert button{
+    padding: 15px 20px;
+    color: #fff;
+    float: right;
+    background: #53554A;
+    border: none;
+    cursor: pointer;
+}

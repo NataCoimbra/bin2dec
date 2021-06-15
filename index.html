@@ -10,8 +10,23 @@
 
     <body>
 
-        
+        <div class='container'>       
 
+            <div id='mainBox'>
+                <div id='formToConvert'> 
+                    
+                    <label for='binCode'>Bin code:</label>
+                    <input type='text' name='binCode' id='binCode' placeholder="00000000"/>
+
+                    <button onclick="convertBinCode">Convert</button>
+                </div>
+
+                <div id='convertedBox'>
+
+                    <p id='convertedNumber'></p>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
 
